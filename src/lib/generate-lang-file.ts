@@ -21,9 +21,9 @@ export const generateLangFile = (projectDir: string, outputFile: string) => {
   forOf(files, (file) => {
     const literals = extractTextLiterals(file)
 
-    forOf(literals, (text) => {
-      if (!phrases[text]) {
-        phrases[text] = text
+    forOf(literals, (literal) => {
+      if (!phrases[literal]) {
+        phrases[literal] = literal
       }
     })
   })
