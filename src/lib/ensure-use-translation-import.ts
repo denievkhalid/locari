@@ -1,6 +1,8 @@
 import traverse, { NodePath } from '@babel/traverse'
 import * as t from '@babel/types'
-import { forOf, getAstFromFile, isUseTranslationSpecifier } from '../utils'
+import { getAstFromFile } from './get-ast-from-file'
+import { isUseTranslationSpecifier } from './is-use-translation-specifier'
+import { forOf } from '../utils'
 
 /**
  * Ensures that a given file imports `useTranslation` from `react-i18next`.

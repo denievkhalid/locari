@@ -1,1 +1,4 @@
+export * from './get-ast-from-file'
 export * from './ensure-use-translation-import'
+export * from './extract-text-literals'
+export * from './is-use-translation-specifier'

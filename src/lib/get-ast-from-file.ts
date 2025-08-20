@@ -1,7 +1,7 @@
 import * as parser from '@babel/parser'
 import fs from 'fs'
-import { PARSE_PLUGINS, PARSE_SOURCE_TYPE } from './constants'
-import { tryCatch } from './try-catch'
+import { PARSE_PLUGINS, PARSE_SOURCE_TYPE } from '../utils/constants'
+import { tryCatch } from '../utils'
 
 const { parse } = parser
 

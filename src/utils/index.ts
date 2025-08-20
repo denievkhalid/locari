@@ -1,4 +1,3 @@
-export * from './get-ast-from-file'
 export * from './for-of'
-export * from './is-use-translation-specifier'
+export * from './scan-dir'
 export * from './try-catch'
