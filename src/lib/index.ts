@@ -1,3 +1,4 @@
+export * from './generate-lang-file'
 export * from './get-ast-from-file'
 export * from './ensure-use-translation-import'
 export * from './extract-text-literals'

@@ -1,4 +1,4 @@
-import glob from 'glob'
+import * as glob from 'glob'
 
 /**
  * Recursively scans a directory and returns all JS/TS files.
@@ -10,7 +10,7 @@ import glob from 'glob'
  * @returns {string[]} An array of absolute file paths matching the patterns.
  */
 export const scanDir = (dir: string): string[] =>
-  glob.sync('**/*.{js,jsx,ts,tsx}', {
+  glob.sync('**/*.{jsx,tsx}', {
     cwd: dir,
     absolute: true,
     ignore: ['node_modules/**', '**/dist/**'],
