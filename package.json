@@ -1,0 +1,20 @@
+{
+  "name": "locari",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/parser": "^7.28.3",
+    "@babel/traverse": "^7.28.3",
+    "@types/babel__traverse": "^7.28.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2"
+  }
+}
